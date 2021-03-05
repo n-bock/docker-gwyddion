@@ -1,6 +1,4 @@
 # Jupyter Notebook with Gwyddion binding
-![Docker Cloud Build Status](https://img.shields.io/docker/cloud/build/nbock/gwyddion)
-
 This Jupyter Notebook is a ready-to-run [Docker image](https://hub.docker.com/r/nbock/gwyddion) containing the Gwyddion Python software binding. The Gwyddion software offers advanced scanning probe microscopy data visualization and analysis tools (see http://gwyddion.net/).
 
 
