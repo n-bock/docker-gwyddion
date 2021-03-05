@@ -1,4 +1,6 @@
 # Jupyter Notebook with Gwyddion binding
+![Docker Cloud Build Status](https://img.shields.io/docker/cloud/build/nbock/gwyddion)
+
 This Jupyter Notebook is a ready-to-run [Docker image](https://hub.docker.com/r/nbock/gwyddion) containing the Gwyddion Python software binding. The Gwyddion software offers advanced scanning probe microscopy data visualization and analysis tools (see http://gwyddion.net/).
 
 
@@ -7,7 +9,7 @@ Set up your [Docker environment](https://docs.docker.com/get-started/) and pull 
 
     docker run -p 8888:8888 nbock/gwyddion
 
-Open <http://localhost:8888/> in your favorite Browser and copy the security token from the command line to access your Jupyter environment. Open a new Python 2 notebook and test the Gwyddion binding with:
+Open <http://localhost:8888/> in your browser and copy the security token from the command line to access your Jupyter environment. Open a new Python 2 notebook and test the Gwyddion binding with:
 
     import gwy
 
